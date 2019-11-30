@@ -14,3 +14,31 @@ header {
         padding: @padding;
     }
 }
+
+@media @mobile {
+    header { 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        
+        .title {
+            padding: 10px 25px 10px 25px;
+        }
+
+        .nav {
+            padding-top: 10px;
+            margin-bottom: -20px;
+        }
+
+        a {
+            justify-content: center;
+            margin-right: 14px;
+            margin-left: 14px;
+        }
+
+   }
+   
+}
+
